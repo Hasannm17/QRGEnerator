@@ -35,9 +35,6 @@ const qrCodeSchema = new mongoose.Schema({
 });
 
 const QRCodeModel = mongoose.model('QRCode', qrCodeSchema);
-
-
-  
   app.route('/').get((req ,res)=>{
     res.send('Welcome to our server')
   }).post((req,res )=>{
