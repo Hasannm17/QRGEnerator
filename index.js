@@ -64,6 +64,9 @@ const QRCodeModel = mongoose.model('QRCode', qrCodeSchema);
     });
   })
 
+
+
+
 app.route('/signup').get((req, res )=>{
     res.send('signup page');
     }).post((req,res)=>{
