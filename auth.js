@@ -13,12 +13,6 @@ const decodedToken = await jwt.verify(
     "RANDOM-TOKEN"
   );
 
-
-
-
-
-
-
 // retrieve the user details of the logged in user
 const user = await decodedToken;
 
